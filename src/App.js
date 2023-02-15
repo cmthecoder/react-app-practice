@@ -1,9 +1,12 @@
 import './App.css';
+import Person from './Person';
 
 const App = () => {
+
   return (
     <div className="App">
-      <h1>Hello World!</h1>
+      <Person name='Tim' lastName='Williams' age='45' />
+      <Person name='Kim' lastName='Williams' age='38' />
     </div>
   );
 }
